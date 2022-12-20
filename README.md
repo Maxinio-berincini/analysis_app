@@ -1,16 +1,73 @@
-# analysis_app
+# Analysis App
 
-Analysis App Uni Projekt
+## Infos
 
-## Getting Started
+Diese App ist im Rahmen einer Projektarbeit an der Universität St. Gallen entstanden. 
+Sie wurde programmiert mit Flutter in der Programmiersprache Dart.
+Flutter ist opensource Framework für die Entwicklung von Platformübergreifenden Apps.
 
-This project is a starting point for a Flutter application.
+## Links zur App
 
-A few resources to get you started if this is your first Flutter project:
+### Andoid
+<p align="left">
+<a href="https://play.google.com/store/apps/details?id=ch.berincini.analysis_app">
+    <img alt="Get it on Google Play"
+        width="250"
+        src="https://github.com/Maxinio-berincini/Datenschutz/blob/main/google-play-badge.png?raw=true" />
+</a>  
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### IOS
+<p align="left">
+<a href="https://apps.apple.com/us/app/hsg-analysis/id1659301671">
+    <img alt="Get it on IOS"
+        width= "250"
+        src="https://github.com/Maxinio-berincini/Datenschutz/blob/main/appstore-badge.png?raw=true" />
+        </a>
+        </p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Aufbau der App
+
+Diese App besteht aus sehr vielen automatisch generierten Dateien. Der eigentliche Code und sonstige relevanten Inhalte befinden sich in zwei Ordner.
+Dem Library (lib) und dem Assets Ordner.
+
+### assets
+
+In diesem ordner befinden sich alle benutzten Grafiken und Schriftarten, welche in der App verwendet wurden.
+
+### Library
+
+In der Library (lib) befinden sich alle Dateien, welche für den Inhalt der App relevant sind.
+Die App ist so gegliedert, dass der Code für jede Seite in einer eigenen Datei geschrieben ist.
+Ebenfalls gibt es Dateien, welche global für den Style zuständig sind, diese befinden sich im "helper" und im "theme" ordner. 
+
+### Aufbau des Codes
+
+Grundsätzlich ist jede Datei, welche Code enthält, gleich aufgebaut:
+
+* scaffold  -  initialisiert das Grundgerüst der Seite.
+  * title  -  zeigt den Titel der Seite an
+  * body  -  dies ist der eigentliche Inhalt der jeweiligen Seite
+
+Der inhalt der App ist baum-förmig aufgebaut mittels sogenannten widgets.
+Am Beispiel dieser App sieht dass dann etwa wie folgt aus:
+Wenn der Inhalt in einer Liste ist, dann ist das oberste widget eine Liste. in der Liste befindet sich dann zum Beispiel eine Spalte.
+Darin wiederum befinden sich Detektoren, welche prüfen, ob auf den Inhalt geklickt wird. Dieser Inhalt besteht dann aus Kacheln, welche wiederum eine Reihe enthalten.
+in dieser Reihe ist dann ein Text und ein Icon.
+
+Bei den Unterthemen ist der Text in mehrere Strings unterteilt, damit einzelne Wörter markiert werden können. diese Strings werden dann zu eine Fliesstext zusammengeführt.
+Die Formeln werden mittels einer Tex Library dargestellt, welche html Syntax für das Styling verwendet.
+
+
+## Code Review
+
+Um die App bestmöglichst anschauen zu können empfehle ich direkt Flutter zu verwenden.
+
+Die Dokumentation zur Installation von Android Studio und Flutter kann unter folgendem Link gefunden werden:
+
+[Flutter Documentation](https://docs.flutter.dev/get-started/install/ "Flutter Documentation")
+
+
+
+
+
