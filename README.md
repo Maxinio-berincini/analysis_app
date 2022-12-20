@@ -3,7 +3,7 @@
 ## Infos
 
 Diese App ist im Rahmen einer Projektarbeit an der Universität St. Gallen entstanden. 
-Sie wurde programmiert mit Flutter in der Programmiersprache Dart.
+Sie wurde mithilfe von Flutter in der Programmiersprache Dart entwickelt. 
 Flutter ist opensource Framework für die Entwicklung von Platformübergreifenden Apps.
 
 ## Links zur App
@@ -28,26 +28,25 @@ Flutter ist opensource Framework für die Entwicklung von Platformübergreifende
 
 ## Aufbau der App
 
-Diese App besteht aus sehr vielen automatisch generierten Dateien. Der eigentliche Code und sonstige relevanten Inhalte befinden sich in zwei Ordner.
-Dem Library (lib) und dem Assets Ordner.
+Diese App besteht aus einer Menge automatisch generierten Dateien. Der eigentliche Code, sowie weitere relevanten Inhalte befinden sich in den Ordnern "libn" (Library) und "assets".
 
 ### assets
 
-In diesem ordner befinden sich alle benutzten Grafiken und Schriftarten, welche in der App verwendet wurden.
+In diesem Ordner befinden sich alle Grafiken und Schriftarten, welche für die Benutzeroberfläche der App verwendet wurden..
 
 ### Library
 
 In der Library (lib) befinden sich alle Dateien, welche für den Inhalt der App relevant sind.
 Die App ist so gegliedert, dass der Code für jede Seite in einer eigenen Datei geschrieben ist.
-Ebenfalls gibt es Dateien, welche global für den Style zuständig sind, diese befinden sich im "helper" und im "theme" ordner. 
+Ebenfalls gibt es Dateien, welche global für den Style zuständig sind, diese befinden sich in den Ordnern "helper" und "theme". 
 
 ### Aufbau des Codes
 
 Grundsätzlich ist jede Datei, welche Code enthält, gleich aufgebaut:
 
 * scaffold  -  initialisiert das Grundgerüst der Seite.
-  * title  -  zeigt den Titel der Seite an
-  * body  -  dies ist der eigentliche Inhalt der jeweiligen Seite
+  * title  -  zeigt den Titel der Seite an.
+  * body  -  hier wird der Inhalt der jeweiligen Seite angezeigt.
 
 Der inhalt der App ist baum-förmig aufgebaut mittels sogenannten widgets.
 Am Beispiel dieser App sieht dass dann etwa wie folgt aus:
