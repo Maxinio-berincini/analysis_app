@@ -7,7 +7,6 @@ import 'home.dart';
 
 // The main file is the entry point of the application and is the first file to be executed.
 
-
 // Initialize App
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
