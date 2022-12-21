@@ -67,6 +67,11 @@ Die Dokumentation zur Installation von Android Studio und Flutter kann unter fol
 [Flutter Documentation](https://docs.flutter.dev/get-started/install/ "Flutter Documentation")
 
 
+## Code Usage
+
+Falls jemand diese App weiterentwickeln möchte, kann dieser Code gerne als Grundlage verwendet werden.
+
+
 
 
 
