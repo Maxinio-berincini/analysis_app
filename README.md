@@ -67,6 +67,15 @@ Die Dokumentation zur Installation von Android Studio und Flutter kann unter fol
 [Flutter Documentation](https://docs.flutter.dev/get-started/install/ "Flutter Documentation")
 
 
+Da der Aufbau der Dateien sehr ähnlich ist, habe ich nur folgende Dateien kommentiert:
+* main.dart
+* home.dart
+* more.dart
+* helper/textstyle.dart
+* topics/folgen_reihen/folgen_reihen_menu.dart
+* topics/folgen_reihen/folgen/what_is.dart
+
+
 ## Code Usage
 
 Falls jemand diese App weiterentwickeln möchte, kann dieser Code gerne als Grundlage verwendet werden.
