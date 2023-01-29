@@ -2,7 +2,7 @@
 
 ## Infos
 
-Diese App ist im Rahmen einer Projektarbeit an der Universität St. Gallen entstanden. 
+Diese App ist im Rahmen einer Projektarbeit an der Universität entstanden. 
 Sie wurde mithilfe von Flutter in der Programmiersprache Dart entwickelt. 
 Flutter ist opensource Framework für die Entwicklung von Platformübergreifenden Apps.
 
